@@ -1,0 +1,20 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+.bg {
+  background-image: url("black.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+div{
+ position:absolute;
+  left:300px;
+  top:20px;
+  width: 400px;
+  border:10px solid rgb(255,255,255);
+  padding: 30px;
+  margin: 20px;
+}

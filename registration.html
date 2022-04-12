@@ -1,0 +1,44 @@
+<html>
+<head>
+<title>Registration page</title>
+<link rel="stylesheet" href="styles.css">
+<script src="reg.js"></script>
+</head>
+<body class="bg">
+<form >
+<div>
+    <center><h1 style="color:white;">REGISTER</h1></center>
+    <center><label for="username" style="color:white;"><b>Username :</b></label>
+    <input type="text"  name="username" id="username" required><br><br>
+
+    <center><label for="psw" style="color:white;"><b>Password  :</b></label>
+    <input type="password" name="psw" id="psw" required><br><br>
+
+    <center><label for="psw-repeat" style="color:white;"><b>Confirm password :</b></label>
+    <input type="password" name="psw-repeat" id="psw-repeat" required><br><br>
+
+    <center><label for="email Id" style="color:white;"><b>Email Id :</b></label>
+    <input type="email"  name="email" id="email" required><br><br>
+
+    <center><label for="mobile number" style="color:white;"><b>Mobile number :</b></label>
+    <input type="tel"  name="mobile number" id="mobile number" required><br><br>
+
+    <center><label for="Dob" style="color:white;"><b>DOB  :</b></label>
+    <input type="date"  name="Dob" id="Dob" required><br><br>
+    <center><label for="Gender" style="color:white;"><b>
+   Gender  :</b></label><br>
+   <select id="Gender">
+        <option>Select</option>
+        <option>Male</option>
+        <option>Female</option>
+        
+    </select><br><br>
+   
+    <center><label for="Address" style="color:white;"><b>Address :</b></label>
+    <input type="text"  name="Address" id="Address" required><br><br>
+      </form>
+    <input type="submit" value="Create Account" onclick="registration()" />
+</div>
+</form>
+</body>
+</html>
