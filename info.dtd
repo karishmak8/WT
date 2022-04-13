@@ -1,0 +1,8 @@
+<!ELEMENT library (information)>
+<!ELEMENT information (name, age, Id, college, percentage, year)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT college (#PCDATA)>
+<!ELEMENT percentage (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ATTLIST information Id CDATA #REQUIRED>
