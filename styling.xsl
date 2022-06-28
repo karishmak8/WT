@@ -4,18 +4,20 @@ xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <xsl:template match="/">
   <html>
   <body>
-    <h2>Information</h2>
+    <h2>cd</h2>
     <table border="1">
       <tr bgcolor="#9acd32">
         <th>name</th>
         <th>id</th>
         <th>percentage</th>
+        <th>year</th>
       </tr>
       <xsl:for-each select="catalog/cd">
       <tr>
         <td><xsl:value-of select="name" /></td>
         <td><xsl:value-of select="Id" /></td>
         <td><xsl:value-of select="percentage"  /></td>
+        <td><xsl:value-of select="year"/></td>
       </tr>
       </xsl:for-each>
     </table>
