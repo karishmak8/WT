@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="2.5" 
+	xmlns="http://java.sun.com/xml/ns/javaee" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee 
+	http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd">
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>Register1</servlet-name>
+    <servlet-class>Register1</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Register1</servlet-name>
+    <url-pattern>/servlet/Register1</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>Login1</servlet-name>
+    <servlet-class>Login1</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Login1</servlet-name>
+    <url-pattern>/servlet/Login1</url-pattern>
+  </servlet-mapping>
+
+
+  <servlet>
+    <servlet-name>Forgot</servlet-name>
+    <servlet-class>Forgot</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+    <servlet-name>Forgot</servlet-name>
+    <url-pattern>/servlet/Forgot</url-pattern>
+  </servlet-mapping>
+
+  <!-- <welcome-file-list>
+    <welcome-file>index.html</welcome-file>
+      <welcome-file>register.html</welcome-file>
+      <welcome-file>login.html</welcome-file>
+      <welcome-file>forgot_password.html</welcome-file>
+    </welcome-file-list> -->
+</web-app>
