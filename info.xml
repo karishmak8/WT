@@ -2,83 +2,45 @@
 <?xml-stylesheet type="text/xsl" href="styling.xsl"?>
 <catalog>
   <cd>
-    <name>Shiva</name>
+    <name>Karishma</name>
     <age>21</age>
     <Id>516</Id>
-    <college>Gayatri</college>
-    <percentage>9.5</percentage>
-    <year>3</year>
+    <percentage>95</percentage>
+    <year>2023</year>
   </cd>
   <cd>
-    <name>jungkook</name>
+    <name>Sunitha</name>
     <age>20</age>
     <Id>517</Id>
-    <college>Gayatri</college>
-    <percentage>8.5</percentage>
-    <year>3</year>
+    <percentage>85</percentage>
+    <year>2022</year>
   </cd>
   <cd>
-    <name>Jimin</name>
+    <name>Swetha</name>
     <age>21</age>
     <Id>518</Id>
-    <college>Gayatri</college>
-    <percentage>9.0</percentage>
-    <year>3</year>
+    <percentage>90</percentage>
+    <year>2022</year>
   </cd>
   <cd>
-    <name>taehyung</name>
+    <name>maneesh</name>
     <age>20</age>
     <Id>519</Id>
-    <college>Gayatri</college>
-    <percentage>8.3</percentage>
-    <year>3</year>
+    <percentage>100</percentage>
+    <year>2023</year>
   </cd>
   <cd>
-    <name>namjoon</name>
+    <name>Kunju</name>
     <age>21</age>
     <Id>520</Id>
-    <college>Gayatri</college>
-    <percentage>9.5</percentage>
-    <year>3</year>
+    <percentage>95</percentage>
+    <year>2023</year>
   </cd>
   <cd>
-    <name>hoesok</name>
+    <name>sunil</name>
     <age>20</age>
     <Id>521</Id>
-    <college>Gayatri</college>
-    <percentage>9.3</percentage>
-    <year>3</year>
-  </cd>
-  <cd>
-    <name>Jin</name>
-    <age>21</age>
-    <Id>522</Id>
-    <college>Gayatri</college>
-    <percentage>8.9</percentage>
-    <year>3</year>
-  </cd>
-  <cd>
-    <name>Suga</name>
-    <age>21</age>
-    <Id>523</Id>
-    <college>Gayatri</college>
-    <percentage>9.0</percentage>
-    <year>3</year>
-  </cd>
-  <cd>
-    <name>Yang Yang</name>
-    <age>21</age>
-    <Id>524</Id>
-    <college>Gayatri</college>
-    <percentage>8.9</percentage>
-    <year>3</year>
-  </cd>
-  <cd>
-    <name>Linyi</name>
-    <age>20</age>
-    <Id>525</Id>
-    <college>Gayatri</college>
-    <percentage>8.0</percentage>
-    <year>3</year>
+    <percentage>93</percentage>
+    <year>2022</year>
   </cd>
 </catalog>
